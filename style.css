@@ -1,0 +1,13 @@
+.logo_main{
+    width: 8%;
+    margin-right: 7%;
+}
+ul li{
+    font-family: 'Poppins', sans-serif;
+}
+@media(max-width: 600px){
+    .logo_main{
+        width: 40%;
+        margin-right: 0%;
+    }
+}

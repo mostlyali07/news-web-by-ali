@@ -15,6 +15,21 @@ input::placeholder {
     font-family: 'Poppins', sans-serif;
 }
 
+.breaking_news h2 {
+    font-size: 30px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+.breaking_news {
+    background-color: #dc3545;
+    margin: 10px 0px 0px 0px;
+    padding: 10px;
+    box-shadow: 0px -1px 6px 0px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 0px -1px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px -1px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
 .twitter {
     color: #00acee;
     background-color: #fff;

@@ -2,7 +2,7 @@ fetch("https://newsapi.org/v2/everything?q=keyword&apiKey=91f47267d3b94d4d8e6cec
   .then((res) => res.json())
   .then((json) => {
     let news = document.getElementById("breaking-news");
-        news.innerHTML += `<h2>${json.source[]}</h2>`;
+        news.innerHTML += `<h2>${json.source}</h2>`;
   });
 
 

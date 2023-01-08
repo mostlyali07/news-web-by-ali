@@ -5,7 +5,6 @@ fetch(
   .then((res) => {
     heading_one.innerHTML = `${res.articles[0].title}`;
     description_one.innerHTML = `${res.articles[0].description}`;
-    let News_img = document.querySelector(".news_img_one");
-    const { icon } = response.weather[0];
-    News_img.innerHTML = `<img src="https://openweathermap.org/img/wn/${icon}.png"/>`;
+    const icon = res.articles[0].urlToImage;
+    news_img_one.innerHTML = `<img src="${icon}"/>`;
   });

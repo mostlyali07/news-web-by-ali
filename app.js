@@ -5,6 +5,18 @@ fetch(
   .then((res) => {
     heading_one.innerHTML = `${res.articles[0].title}`;
     description_one.innerHTML = `${res.articles[0].description}`;
-    const icon = res.articles[0].urlToImage;
-    news_img_one.innerHTML = `<img src="${icon}"/>`;
+    const admin = res.articles[0].urlToImage;
+    news_img_one.innerHTML = `<img src="${admin}"/>`;
+    const sourceurl = res.articles[0].url;
+    Source.innerHTML = `<a href="${sourceurl}" class="btn btn-dark" target="_blank" >View Source</a>`;
+    Published.innerHTML = `<b>Published At : ${res.articles[0].publishedAt}</b>`;
+
+
+    heading_two.innerHTML = `${res.articles[1].title}`;
+    description_two.innerHTML = `${res.articles[1].description}`;
+    const admin_2 = res.articles[1].urlToImage;
+    news_img_two.innerHTML = `<img src="${admin_2}"/>`;
+    const sourceurl_2 = res.articles[1].url;
+    Source_2.innerHTML = `<a href="${sourceurl_2}" class="btn btn-dark" target="_blank" >View Source</a>`;
+    Published_2.innerHTML = `<b>Published At : ${res.articles[1].publishedAt}</b>`;
   });

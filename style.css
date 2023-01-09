@@ -1,84 +1,99 @@
-body{
-    font-family: 'Poppins', sans-serif;
+body {
+  font-family: "Poppins", sans-serif;
 }
 .logo_main {
-    width: 8%;
-    margin-right: 2%;
+  width: 8%;
+  margin-right: 2%;
 }
 
 ul li {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 input::placeholder {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .btn {
-    font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 .breaking_news h2 {
-    font-size: 30px;
-    color: white;
-    font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  color: white;
+  font-family: "Poppins", sans-serif;
 }
 
 .breaking_news {
-    background-color: #dc3545;
-    margin: 10px 0px 0px 0px;
-    padding: 10px;
-    box-shadow: 0px -1px 6px 0px rgba(0, 0, 0, 0.75);
-    -webkit-box-shadow: 0px -1px 6px 0px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px -1px 6px 0px rgba(0, 0, 0, 0.75);
+  background-color: #dc3545;
+  margin: 10px 0px 0px 0px;
+  padding: 10px;
+  box-shadow: 0px -1px 6px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px -1px 6px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px -1px 6px 0px rgba(0, 0, 0, 0.75);
 }
 
 .twitter {
-    color: #00acee;
-    background-color: #fff;
-    padding: 6px;
-    border-radius: 26px;
+  color: #00acee;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 26px;
 }
 
 .twitter:hover {
-    color: #fff;
-    background-color: #00acee;
-    transition: 0.3s;
-    cursor: pointer;
+  color: #fff;
+  background-color: #00acee;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .facebook {
-    color: #00acee;
-    background-color: #fff;
-    padding: 6px;
-    border-radius: 26px;
-    margin-left: 10px;
+  color: #00acee;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 26px;
+  margin-left: 10px;
 }
 
 .facebook:hover {
-    color: #fff;
-    background-color: #4267B2;
-    transition: 0.3s;
-    cursor: pointer;
+  color: #fff;
+  background-color: #4267b2;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
 .instagram {
-    color: #5757c5;
-    background-color: #fff;
-    padding: 6px;
-    border-radius: 26px;
+  color: #5757c5;
+  background-color: #fff;
+  padding: 6px;
+  border-radius: 26px;
 }
 
 .instagram:hover {
-    color: #fff;
-    background-image: linear-gradient(#5757c5, #e64672);
-    transition: 0.3s;
-    cursor: pointer;
+  color: #fff;
+  background-image: linear-gradient(#5757c5, #e64672);
+  transition: 0.3s;
+  cursor: pointer;
 }
-
-@media(max-width: 600px) {
-    .logo_main {
-        width: 40%;
-        margin-right: 0%;
-    }
+#news_img_one img {
+  height: 50px;
+  width: 50px;
+  border-radius: 250px;
+  box-shadow: 0px 0px 23px -8px rgba(0, 0, 0, 0.342);
+  -webkit-box-shadow: 0px 0px 23px -8px rgba(0, 0, 0, 0.267);
+  -moz-box-shadow: 0px 0px 23px -8px rgba(0, 0, 0, 0.75);
+}
+#news_img_two img {
+    height: 50px;
+    width: 50px;
+    border-radius: 250px;
+    box-shadow: 0px 0px 23px -8px rgba(0, 0, 0, 0.342);
+    -webkit-box-shadow: 0px 0px 23px -8px rgba(0, 0, 0, 0.267);
+    -moz-box-shadow: 0px 0px 23px -8px rgba(0, 0, 0, 0.75);
+  }
+@media (max-width: 600px) {
+  .logo_main {
+    width: 40%;
+    margin-right: 0%;
+  }
 }
